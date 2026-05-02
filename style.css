@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(236, 123, 95); /* dark navy background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e2e8f0;
+}
+
+.container {
+    background: darkcyan; /* dark card */
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    width: 320px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.6);
+}
+
+h2 {
+    color: #f8fafc;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    background: darkgrey;
+    color: white;
+}
+
+input::placeholder {
+    color: #cbd5e1;
+}
+
+button {
+    padding: 10px 20px;
+    background: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #dc2626;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
